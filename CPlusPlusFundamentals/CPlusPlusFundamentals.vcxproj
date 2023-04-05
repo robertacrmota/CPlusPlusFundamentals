@@ -128,6 +128,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CPlusPlusFundamentals.cpp" />
+    <ClCompile Include="OperatorOverloading.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OperatorOverloading.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
