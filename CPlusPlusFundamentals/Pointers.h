@@ -1,5 +1,6 @@
 #pragma once
 
-namespace operatorOverloading {
+namespace pointers {
 	int main(int argc, char* argv[]);
 }
+

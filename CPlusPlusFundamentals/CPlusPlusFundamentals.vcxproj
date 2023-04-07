@@ -129,9 +129,11 @@
   <ItemGroup>
     <ClCompile Include="CPlusPlusFundamentals.cpp" />
     <ClCompile Include="OperatorOverloading.cpp" />
+    <ClCompile Include="Pointers.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="OperatorOverloading.h" />
+    <ClInclude Include="Pointers.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

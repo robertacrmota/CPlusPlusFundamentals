@@ -9,7 +9,14 @@ using std::ostream;
 using std::string;
 using std::list;
 
+/*
+	Tutorial 2
 
+	- Why use operator overloading?
+	- Examples: 
+		- operator <<
+		- operator +=
+*/
 namespace operatorOverloading {
 
 	struct Question
