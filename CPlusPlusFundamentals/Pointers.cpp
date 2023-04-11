@@ -10,11 +10,12 @@ using std::cin;
 
 	- What are pointers?
 	- Address-of operator (&)
-	- Dereference operator (*)
+	- Dereferencing operator (*)
 	- Why use pointers?
 		1. return multiple values from a function
 		2. use arrays
 		3. use dynamic arrays
+		4. use multi-dimensional arrays
 */
 
 namespace pointers {
@@ -56,7 +57,7 @@ namespace pointers {
 	int main(int argc, char* argv[]) {
 		
 
-		// Addressof (&) and dereference (*) operators --------------------------------------------------------------------
+		// Addressof (&) and dereferencing (*) operators --------------------------------------------------------------------
 		int val = 5;
 		cout <<  val << endl; // value
 		cout << &val << endl; // address-of operator (&). get the memory address
@@ -64,7 +65,7 @@ namespace pointers {
 		
 		int* ptr = &val;      // referencing
 		cout <<  ptr << endl; // memory address
-		cout << *ptr << endl; // dereference operator (*). get the value
+		cout << *ptr << endl; // dereferencing operator (*). get the value
 
 		*ptr = 10;
 		cout << *ptr << endl;
@@ -121,6 +122,30 @@ namespace pointers {
 
 		delete[]myArray;  // deallocate memory used by myArray. myArray now points to an unused memory location
 		myArray = NULL;   // myArray now points to no memory location
+
+
+		// 3. use multi-dimensional dynamic array
+		int rows, cols;
+		cout << "Rows, Cols: ";
+		cin >> rows >> cols;
+
+		// create (alllocate memory)
+		int** my2Darray = new int* [rows];  
+		for (int i=0; i<rows; i++) {
+			my2Darray[i] = new int[cols];
+		}
+
+		// access 
+		my2Darray[0][0] = 8;
+		cout << my2Darray[0][0] << endl;
+
+		// delete (deallocate memory)
+		for (int i = 0; i < rows; i++) {
+			delete[] my2Darray[i];
+		}
+
+		delete[] my2Darray;
+		my2Darray = NULL;
 
 
 		return 0;

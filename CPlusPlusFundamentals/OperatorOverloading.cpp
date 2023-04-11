@@ -13,9 +13,8 @@ using std::list;
 	Tutorial 2
 
 	- Why use operator overloading?
-	- Examples: 
-		- operator <<
-		- operator +=
+	- Examples: << and += operators
+
 */
 namespace operatorOverloading {
 
