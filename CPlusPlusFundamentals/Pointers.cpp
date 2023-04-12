@@ -16,9 +16,10 @@ using std::cin;
 		2. use arrays
 		3. use dynamic arrays
 		4. use multi-dimensional arrays
+		5. function pointers (next tutorial)
 */
 
-namespace pointers {
+namespace pointer {
 
 	int getMin(int numbers[], int size) {
 		int min = numbers[0];

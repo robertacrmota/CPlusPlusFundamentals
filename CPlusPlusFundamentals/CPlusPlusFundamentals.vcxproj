@@ -128,10 +128,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CPlusPlusFundamentals.cpp" />
+    <ClCompile Include="FunctionPointer.cpp" />
     <ClCompile Include="OperatorOverloading.cpp" />
     <ClCompile Include="Pointers.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="FunctionPointer.h" />
     <ClInclude Include="OperatorOverloading.h" />
     <ClInclude Include="Pointers.h" />
   </ItemGroup>

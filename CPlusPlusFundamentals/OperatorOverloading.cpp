@@ -10,10 +10,12 @@ using std::string;
 using std::list;
 
 /*
-	Tutorial 2
+	Tutorial 3
 
+	- What is operator overloadin?
+	  - Ex: << and += operators
 	- Why use operator overloading?
-	- Examples: << and += operators
+	
 
 */
 namespace operatorOverloading {

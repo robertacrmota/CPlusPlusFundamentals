@@ -24,12 +24,18 @@
     <ClCompile Include="Pointers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="FunctionPointer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="OperatorOverloading.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Pointers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionPointer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
