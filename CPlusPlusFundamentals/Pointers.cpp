@@ -6,7 +6,7 @@ using std::endl;
 using std::cin;
 
 /*
-	Tutorial 1
+	Tutorial
 
 	- What are pointers?
 	- Address-of operator (&)

@@ -10,7 +10,7 @@ using std::string;
 using std::list;
 
 /*
-	Tutorial 3
+	Tutorial
 
 	- What is operator overloadin?
 	  - Ex: << and += operators

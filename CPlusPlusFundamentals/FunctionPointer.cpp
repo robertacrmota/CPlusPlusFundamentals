@@ -7,7 +7,7 @@ using std::endl;
 namespace functionPointer {
 
 	/*
-	   Tutorial 2
+	   Tutorial
 
 	   - What is a function pointer?
 	   - Why use a function pointer?
