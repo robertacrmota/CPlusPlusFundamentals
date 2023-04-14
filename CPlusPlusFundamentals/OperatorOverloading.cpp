@@ -11,12 +11,10 @@ using std::list;
 
 /*
 	Tutorial
-
 	- What is operator overloadin?
-	  - Ex: << and += operators
+	  - <<, += operators
 	- Why use operator overloading?
 	
-
 */
 namespace operatorOverloading {
 
@@ -31,6 +29,8 @@ namespace operatorOverloading {
 			this->Type = type;
 			this->Difficulty = difficulty;
 		};
+
+		~Question() {}
 
 		bool operator==(const Question& q) const {
 			return this->Name.compare(q.Name) == 0;
