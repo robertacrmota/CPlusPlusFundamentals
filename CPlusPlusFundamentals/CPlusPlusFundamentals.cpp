@@ -2,11 +2,11 @@
 #include "Pointers.h";
 #include "FunctionPointer.h";
 #include "OperatorOverloading.h";
-#include "ConstructorsDestructors.h";
+#include "Classes.h";
 
 using namespace pointer;
 using namespace functionPointer;
-using namespace constructorsDestructors;
+using namespace classes;
 using namespace operatorOverloading;
 
 
@@ -17,7 +17,7 @@ using namespace operatorOverloading;
 *   - function pointer
 * 
 *   OOP
-*   - class + constructors/destructors
+*   - class + access modifiers + constructors/destructors 
 *   - operator overloading
 * 
 */
@@ -30,6 +30,6 @@ int main(int argc, char* argv[])
 
 
 	// OOP
-	return constructorsDestructors::main(argc, argv);
+	return classes::main(argc, argv);
 	//return operatorOverloading::main(argc, argv);
 }

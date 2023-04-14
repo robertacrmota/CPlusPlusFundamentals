@@ -1,5 +1,5 @@
 #pragma once
-namespace constructorsDestructors {
+namespace classes {
 
 	int main(int argc, char* argv[]);
 };

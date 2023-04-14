@@ -127,14 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ConstructorsDestructors.cpp" />
+    <ClCompile Include="Classes.cpp" />
     <ClCompile Include="CPlusPlusFundamentals.cpp" />
     <ClCompile Include="FunctionPointer.cpp" />
     <ClCompile Include="OperatorOverloading.cpp" />
     <ClCompile Include="Pointers.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ConstructorsDestructors.h" />
+    <ClInclude Include="Classes.h" />
     <ClInclude Include="FunctionPointer.h" />
     <ClInclude Include="OperatorOverloading.h" />
     <ClInclude Include="Pointers.h" />

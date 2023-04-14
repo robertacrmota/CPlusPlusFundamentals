@@ -27,7 +27,7 @@
     <ClCompile Include="FunctionPointer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ConstructorsDestructors.cpp">
+    <ClCompile Include="Classes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -41,7 +41,7 @@
     <ClInclude Include="FunctionPointer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ConstructorsDestructors.h">
+    <ClInclude Include="Classes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

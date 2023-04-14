@@ -1,16 +1,17 @@
 #include <iostream>
 #include<string>
-#include "ConstructorsDestructors.h"
+#include "Classes.h"
 
 using std::cout;
 using std::endl;
 using std::string;
 
-namespace constructorsDestructors {
+namespace classes {
 
 	/*
 	   Tutorial 
 	   - What is a class?
+	   - What are access modifiers? public, protected, private
 	   - What is a constructor?
 	   - What types of constructors? Default, parametrized
 	   - What is a destructor?
@@ -18,13 +19,6 @@ namespace constructorsDestructors {
 
 	class Question {
 	public:
-		string title;
-		string type;
-		int difficulty;
-		string* testCases;
-		int testCasesCapacity;
-		int testCasesCounter;
-
 		// Default constructor: no parameters
 		Question() { 
 			this->title = "unknown";
@@ -73,13 +67,47 @@ namespace constructorsDestructors {
 				cout << "Testcase " << i << ": " << this->testCases[i] << endl;
 			}
 		}
+	
+		// getters and setters
+		void setTitle(string title) {
+			this->title = title;
+		}
+		string getTitle() {
+			return this->title;
+		}
+
+		void setType(string type) {
+			this->type = type;
+		}
+		string getType() {
+			return this->type;
+		}
+
+		void setDifficulty(int difficulty) {
+			this->difficulty = difficulty;
+		}
+		int getDifficulty() {
+			return this->difficulty;
+		}
+
+	private:
+		string title;
+		string type;
+		int difficulty;
+		string* testCases;
+		int testCasesCapacity;
+		int testCasesCounter;
 	};
 
 
 	int main(int argc, char* argv[]) {
 
-		Question q1;
-		Question q2("2Sum", "Array", 2, 5);
+		Question q1; // default constructor invoked
+		q1.setTitle("Median of two sorted arrays");
+		q1.setType("Array");
+		q1.setDifficulty(3);
+
+		Question q2("2 Sum", "Array", 2, 5); // parametrized constructor invoked
 		q2.addTestCase("[3, 4, 5, 6, 7]");
 
 		cout << "Question 1" << endl;
@@ -89,5 +117,5 @@ namespace constructorsDestructors {
 		q2.print();
 
 		return 0;
-	}
+	} // destructors invoked
 };
