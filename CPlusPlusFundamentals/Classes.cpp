@@ -18,6 +18,14 @@ namespace classes {
 	*/
 
 	class Question {
+	private:
+		string title;
+		string type;
+		int difficulty;
+		string* testCases;
+		int testCasesCapacity;
+		int testCasesCounter;
+
 	public:
 		// Default constructor: no parameters
 		Question() { 
@@ -90,13 +98,7 @@ namespace classes {
 			return this->difficulty;
 		}
 
-	private:
-		string title;
-		string type;
-		int difficulty;
-		string* testCases;
-		int testCasesCapacity;
-		int testCasesCounter;
+
 	};
 
 

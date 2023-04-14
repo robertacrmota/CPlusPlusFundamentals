@@ -1,5 +1,6 @@
 #pragma once
-namespace classes {
+namespace inheritanceClasses {
 	int main(int argc, char* argv[]);
-};
+}
+
 
