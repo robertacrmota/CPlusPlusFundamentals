@@ -1,10 +1,12 @@
 #include <iostream>
+#include "DataTypesPrimitive.h";
 #include "Pointers.h";
 #include "FunctionPointer.h";
 #include "Classes.h";
 #include "OperatorOverloading.h";
 #include "InheritanceClasses.h";
 
+using namespace dataTypesPrimitive;
 using namespace pointer;
 using namespace functionPointer;
 using namespace classes;
@@ -14,6 +16,10 @@ using namespace inheritanceClasses;
 /*
 * 
 *   BASICS
+*   - data types
+*	  - primitive
+*	  - derived (from primitive)
+*     - user-defined
 *   - pointer
 *   - function pointer
 * 
@@ -27,6 +33,7 @@ using namespace inheritanceClasses;
 int main(int argc, char* argv[])
 {
 	// BASICS
+	return dataTypesPrimitive::main(argc, argv);
 	//return pointer::main(argc, argv);
 	//return functionPointer::main(argc, argv);
 
@@ -34,5 +41,5 @@ int main(int argc, char* argv[])
 	// OOP
 	//return classes::main(argc, argv);
 	//return operatorOverloading::main(argc, argv);
-	return inheritanceClasses::main(argc, argv);
+	//return inheritanceClasses::main(argc, argv);
 }
